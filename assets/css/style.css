@@ -4,15 +4,13 @@ body {
 	background-image: url("../../assets/images/notebook.png");
 	background-repeat: no-repeat;
 	background-size: cover;
+	margin: 0;
+	padding: 0;
 }
 
 .headers {
 	font-family: 'Georgia', Times, Times New Roman, serif; 
 	color: #4aaaa5;
-}
-
-.container {
-
 }
 
 .logo {
@@ -26,8 +24,23 @@ body {
 	max-width: 200px;
 }
 
+.mainMenu {
+	background-color: white;
+}
+
+h1 {
+	margin: 0;
+}
+
 .menuItems li {
 	list-style: none;
+	display: inline-block;
+	padding: 20px;
+}
+
+.menuItems a {
+	text-decoration: none;
+	color: #dddddd;
 }
 
 .bodyContent {
@@ -44,6 +57,10 @@ footer {
 	color: white;
 	height: 100px;
 	text-align: center;
+}
+
+.sidebar {
+
 }
 
 /*
