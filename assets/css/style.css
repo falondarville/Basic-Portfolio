@@ -22,6 +22,8 @@ body {
 
 #photo {
 	max-width: 200px;
+	float: left;
+	margin-right: 20px;
 }
 
 .mainMenu {
@@ -49,16 +51,23 @@ h1 {
 
 .bodyContent {
 	width: 960px;
-	margin: auto;
+	margin: 0 auto;
 }
 
 .mainContent {
 	max-width: 620px;
 	background-color: white;
 	padding: 30px;
-	color: #777fa2;
 	margin-left: -80px;
 	margin-top: 40px;
+	border-style: 1px solid #dddddd;
+	display: inline-block;
+}
+
+.mainContent p {
+	font-size: 18px;
+	color: #666666;
+	line-height: 35px;
 }
 
 #submitButton {
@@ -73,7 +82,19 @@ footer {
 }
 
 .sidebar {
+	float: right;
+	display: inline-block;
+	background-color: white;
+	margin-top: 40px;
+}
 
+hr {
+	height: 3px;
+	color: #dddddd;
+	background-color: #dddddd;
+	border: 0;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 /*
