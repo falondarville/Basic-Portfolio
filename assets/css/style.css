@@ -83,8 +83,15 @@ h1 {
 footer {
 	background-color: #666666;
 	color: white;
-	height: 100px;
+	height: 55px;
+	padding-top: 40px;
 	text-align: center;
+	border-top: 8px solid #4aaaa5;
+	font-size: small;
+	position: relative;
+	left: 0;
+	bottom: 0;
+	width: 100%;
 }
 
 .sidebar {
@@ -92,15 +99,27 @@ footer {
 	display: inline-block;
 	background-color: white;
 	margin-top: 40px;
+	max-width: 270px;
+	padding: 30px;
+	margin-right: 80px;
 }
 
-hr {
+.mainLine {
 	height: 3px;
 	color: #dddddd;
 	background-color: #dddddd;
 	border: 0;
 	margin-top: 30px;
 	margin-bottom: 30px;
+}
+
+.secondaryLine {
+	color: #dddddd;
+	border: 0;
+	height: 2px;
+	background-color: #dddddd;
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
 /*
