@@ -17,7 +17,7 @@ body {
 	background-color: #4aaaa5;
 	color: white;
 	width: 250px;
-	height: 85px;
+	height: 90px;
 }
 
 #photo {
@@ -29,10 +29,15 @@ body {
 .mainMenu {
 	background-color: white;
 	padding-left: 80px;
+	border-bottom: 2px solid #cccccc;
+	max-height: 90px;
+	margin: 0;
+	display: flex;
+	flex-direction: row;
 }
 
 h1 {
-	margin: 0;
+	margin: 0 auto;
 	padding-top: 25px;
 	padding-bottom: 25px;
 	padding-left: 20px;
@@ -62,11 +67,12 @@ h1 {
 	margin-top: 40px;
 	border-style: 1px solid #dddddd;
 	display: inline-block;
+	margin-bottom: 40px;
 }
 
 .mainContent p {
 	font-size: 18px;
-	color: #666666;
+	color: #777777;
 	line-height: 35px;
 }
 
