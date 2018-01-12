@@ -60,7 +60,7 @@ h1 {
 }
 
 .mainContent {
-	max-width: 620px;
+	width: 620px;
 	background-color: #ffffff;
 	padding: 30px;
 	margin-left: -80px;
@@ -76,8 +76,66 @@ h1 {
 	line-height: 35px;
 }
 
+.portfolioContainer {
+	width: 620px;
+	padding: 30px;
+	background-color: #ffffff;
+	margin-top: 40px;
+	margin-left: -80px;
+	border-style: 1px solid #dddddd;
+	display: inline-block;
+	margin-bottom: 40px;
+}
+
+.portfolioItems img {
+	width: 275px;
+	height: 200px;
+	float: left;
+	margin: 16px;
+	justify-content: center;
+	padding-bottom: 20px;
+}
+
+.banner {
+	background-color: 
+}
+
+.contactContainer {
+	max-width: 620px;
+	background-color: #ffffff;
+	padding: 30px;
+	margin-left: -80px;
+	margin-top: 40px;
+	border-style: 1px solid #dddddd;
+	display: inline-block;
+	margin-bottom: 40px;
+}
+
+input {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	font-size: 14px;
+	padding: 10px;
+}
+
+label {
+	color: #777777;
+}
+
+#message {
+	/*padding is not the correct way to change this */
+	overflow: auto;
+	resize: vertical;
+	height: 200px;
+}
+
 #submitButton {
 	background-color: #4aaaa5;
+	color: #ffffff;
+	width: 20%;
+	font-size: 16px;
 }
 
 footer {
