@@ -15,7 +15,7 @@ body {
 
 .logo {
 	background-color: #4aaaa5;
-	color: white;
+	color: #ffffff;
 	width: 250px;
 	height: 90px;
 }
@@ -27,7 +27,7 @@ body {
 }
 
 .mainMenu {
-	background-color: white;
+	background-color: #ffffff;
 	padding-left: 80px;
 	border-bottom: 2px solid #cccccc;
 	max-height: 90px;
@@ -61,7 +61,7 @@ h1 {
 
 .mainContent {
 	max-width: 620px;
-	background-color: white;
+	background-color: #ffffff;
 	padding: 30px;
 	margin-left: -80px;
 	margin-top: 40px;
@@ -82,7 +82,7 @@ h1 {
 
 footer {
 	background-color: #666666;
-	color: white;
+	color: #ffffff;
 	height: 55px;
 	padding-top: 40px;
 	text-align: center;
@@ -96,7 +96,7 @@ footer {
 .sidebar {
 	float: right;
 	display: inline-block;
-	background-color: white;
+	background-color: #ffffff;
 	margin-top: 40px;
 	width: 210px;
 	height: 140px;
