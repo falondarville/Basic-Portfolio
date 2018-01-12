@@ -50,12 +50,13 @@ h1 {
 }
 
 .menuPadding a {
-	padding-left: 440px;
+	padding-left: 420px;
 }
 
 .menuItems a {
 	text-decoration: none;
 	color: #dddddd;
+	font-size: 18px;
 }
 
 .bodyContent {
