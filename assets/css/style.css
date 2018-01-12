@@ -99,9 +99,12 @@ footer {
 	display: inline-block;
 	background-color: white;
 	margin-top: 40px;
-	max-width: 270px;
+	width: 210px;
+	height: 140px;
 	padding: 30px;
-	margin-right: 80px;
+	margin-right: 40px;
+	text-align: center;
+
 }
 
 .mainLine {
@@ -118,8 +121,8 @@ footer {
 	border: 0;
 	height: 2px;
 	background-color: #dddddd;
-	margin-top: 25px;
-	margin-bottom: 25px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 /*
