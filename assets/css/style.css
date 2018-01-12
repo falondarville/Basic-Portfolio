@@ -49,6 +49,10 @@ h1 {
 	padding: 20px;
 }
 
+.menuPadding a {
+	padding-left: 440px;
+}
+
 .menuItems a {
 	text-decoration: none;
 	color: #dddddd;
@@ -94,10 +98,17 @@ h1 {
 	margin: 16px;
 	justify-content: center;
 	padding-bottom: 20px;
+	overflow: hidden;
 }
 
 .banner {
-	background-color: 
+	background-color: #4aaaa5;
+	color: #ffffff;
+	z-index: 0;
+	height: 30px;
+	font-size: 16px;
+	text-align: center;
+	padding: 20px;
 }
 
 .contactContainer {
