@@ -95,21 +95,28 @@ h1 {
 .portfolioItems img {
 	width: 275px;
 	height: 200px;
-	float: left;
-	margin: 16px;
 	justify-content: center;
-	padding-bottom: 20px;
-	overflow: hidden;
+	margin: 15px 15px 25px 15px;
+}
+
+.portfolioItems {
+	float: left; 
+	position: relative;
 }
 
 .banner {
 	background-color: #4aaaa5;
 	color: #ffffff;
 	z-index: 0;
-	height: 30px;
-	font-size: 16px;
+	height: 25px;
+	font-size: 20px;
 	text-align: center;
 	padding: 20px;
+	position: absolute;
+	bottom: 15px;
+	left: 0;
+	right: 0;
+	margin: 15px 15px 25px 15px;
 }
 
 .contactContainer {
