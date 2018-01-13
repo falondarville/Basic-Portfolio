@@ -6,6 +6,7 @@ body {
 	background-size: cover;
 	margin: 0;
 	padding: 0;
+	height: 100%;
 }
 
 .headers {
@@ -50,7 +51,7 @@ h1 {
 }
 
 .menuPadding a {
-	padding-left: 420px;
+	padding-left: 410px;
 }
 
 .menuItems a {
@@ -168,6 +169,7 @@ footer {
 	left: 0;
 	bottom: 0;
 	width: 100%;
+	clear: both;
 }
 
 .sidebar {
@@ -199,4 +201,10 @@ footer {
 	background-color: #dddddd;
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+.menuLine {
+	border-right: 1px solid #dddddd;
+	height: 20px;
+	display: inline;
 }
