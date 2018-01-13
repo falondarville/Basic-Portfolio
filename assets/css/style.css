@@ -120,23 +120,24 @@ h1 {
 }
 
 .contactContainer {
-	max-width: 620px;
+	width: 620px;
 	background-color: #ffffff;
 	padding: 30px;
 	margin-left: -80px;
 	margin-top: 40px;
-	border-style: 1px solid #dddddd;
+	border: 1px solid #dddddd;
 	display: inline-block;
 	margin-bottom: 40px;
 }
 
-input {
+input, textarea {
 	width: 100%;
 	padding: 12px 20px;
 	margin: 8px 0;
 	box-sizing: border-box;
 	font-size: 14px;
 	padding: 10px;
+	border: 1px solid #dddddd;
 }
 
 label {
@@ -144,7 +145,6 @@ label {
 }
 
 #message {
-	/*padding is not the correct way to change this */
 	overflow: auto;
 	resize: vertical;
 	height: 200px;
@@ -200,26 +200,3 @@ footer {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-
-/*
-
-Teal color (used for headings and backgrounds): #4aaaa5
-
-Regular font color (used for paragraphs and all text besides the headings): #777777
-
-Main header background color: #ffffff
-
-Main header border color: #cccccc
-
-Footer background color: #666666
-
-Main content background color: #ffffff
-
-Main content border color: #dddddd
-
-The entire content area is 960px wide.
-The main section content is 650px wide.
-The sidebar is 270px wide.
-Pro-tip: Use the Page Ruler extension to measure the size of elements.
-
-*/
