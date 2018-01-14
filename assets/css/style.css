@@ -47,7 +47,8 @@ h1 {
 .menuItems li {
 	list-style: none;
 	display: inline-block;
-	padding: 20px;
+	padding: 10px;
+	padding-top: 20px;
 }
 
 .menuPadding a {
