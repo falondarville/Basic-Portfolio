@@ -125,8 +125,14 @@ h2 {
 	width: 50%;
 }
 
-i {
-	padding: 5px;
+a {
+	text-decoration: none;
+}
+
+.icons {
+	padding: 3px;
+	height: 60px;
+	width: 60px;
 }
 
 .banner {
