@@ -14,6 +14,21 @@ body {
 	color: #4aaaa5;
 }
 
+h3 {
+	font-size: 22px;
+}
+
+h1 {
+	margin: 0 auto;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 20px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
 .logo {
 	background-color: #4aaaa5;
 	color: #ffffff;
@@ -29,19 +44,12 @@ body {
 
 .mainMenu {
 	background-color: #ffffff;
-	padding-left: 80px;
+	padding-left: 120px;
 	border-bottom: 2px solid #cccccc;
 	max-height: 90px;
 	margin: 0;
 	display: flex;
 	flex-direction: row;
-}
-
-h1 {
-	margin: 0 auto;
-	padding-top: 25px;
-	padding-bottom: 25px;
-	padding-left: 20px;
 }
 
 .menuItems li {
@@ -52,12 +60,12 @@ h1 {
 }
 
 .menuPadding a {
-	padding-left: 410px;
+	padding-left: 380px;
 }
 
 .menuItems a {
 	text-decoration: none;
-	color: #dddddd;
+	color: #999ca4;
 	font-size: 18px;
 }
 
@@ -67,14 +75,15 @@ h1 {
 }
 
 .mainContent {
-	width: 620px;
+	width: 650px;
 	background-color: #ffffff;
 	padding: 30px;
-	margin-left: -80px;
+	margin-left: -40px;
 	margin-top: 40px;
 	border-style: 1px solid #dddddd;
 	display: inline-block;
 	margin-bottom: 40px;
+	box-sizing: border-box;
 }
 
 .mainContent p {
@@ -84,26 +93,40 @@ h1 {
 }
 
 .portfolioContainer {
-	width: 620px;
+	width: 650px;
 	padding: 30px;
 	background-color: #ffffff;
 	margin-top: 40px;
-	margin-left: -80px;
+	margin-left: -40px;
 	border-style: 1px solid #dddddd;
 	display: inline-block;
 	margin-bottom: 40px;
+	box-sizing: border-box;
 }
 
 .portfolioItems img {
 	width: 275px;
 	height: 200px;
-	justify-content: center;
-	margin: 15px 15px 25px 15px;
+}
+
+.portfolioItems:nth-child(2n){
+	text-align: right;
+}
+
+.portfolioItems:nth-child(2n) .banner{
+	right: 0;
+	left: initial;
 }
 
 .portfolioItems {
 	float: left; 
 	position: relative;
+	margin-bottom: 40px;
+	width: 50%;
+}
+
+i {
+	padding: 5px;
 }
 
 .banner {
@@ -118,18 +141,19 @@ h1 {
 	bottom: 15px;
 	left: 0;
 	right: 0;
-	margin: 15px 15px 25px 15px;
+	width: 235px;
 }
 
 .contactContainer {
-	width: 620px;
+	width: 650px;
 	background-color: #ffffff;
 	padding: 30px;
-	margin-left: -80px;
+	margin-left: -40px;
 	margin-top: 40px;
 	border: 1px solid #dddddd;
 	display: inline-block;
 	margin-bottom: 40px;
+	box-sizing: border-box;
 }
 
 input, textarea {
@@ -178,12 +202,12 @@ footer {
 	display: inline-block;
 	background-color: #ffffff;
 	margin-top: 40px;
-	width: 210px;
-	height: 140px;
-	padding: 30px;
+	width: 270px;
+	height: 200px;
+	padding: 20px;
 	margin-right: 40px;
 	text-align: center;
-
+	box-sizing: border-box;
 }
 
 .mainLine {
@@ -202,6 +226,7 @@ footer {
 	background-color: #dddddd;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	width: 200px;
 }
 
 .menuLine {
