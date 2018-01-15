@@ -14,19 +14,22 @@ body {
 	color: #4aaaa5;
 }
 
-h3 {
-	font-size: 22px;
+h2 {
+	font-size: 28px;
+	margin-top: 15px;
 }
 
 h1 {
+	font-size: 30px;
 	margin: 0 auto;
-	padding-top: 25px;
+	padding-top: 30px;
 	padding-bottom: 25px;
-	padding-left: 20px;
+	padding-left: 32px;
 }
 
-h2 {
-	font-size: 30px;
+h3 {
+	font-size: 22px;
+	margin-top: 15px;
 }
 
 .logo {
@@ -57,10 +60,11 @@ h2 {
 	display: inline-block;
 	padding: 10px;
 	padding-top: 20px;
+	margin-top: 16px;
 }
 
 .menuPadding a {
-	padding-left: 380px;
+	padding-left: 420px;
 }
 
 .menuItems a {
